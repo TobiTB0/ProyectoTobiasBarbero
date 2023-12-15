@@ -7,3 +7,10 @@ class Usuario(models.Model):
     
 class Roms(models.Model):
     nombre = models.CharField(max_length = 100)
+    
+    
+class Emuladores(models.Model):
+    nombre = models.CharField(max_length = 100)
+    
+
+    

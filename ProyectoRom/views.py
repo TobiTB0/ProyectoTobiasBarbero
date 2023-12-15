@@ -32,7 +32,7 @@ def login(xx):
     diccionario = { }
     
     
-    plantilla = loader.get_template('login.html')
+    plantilla = loader.get_template('Login.html')
     
     documento = plantilla.render(diccionario)
     
